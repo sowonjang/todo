@@ -1,0 +1,72 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box
+;}
+#root{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+ul{
+  list-style: none;
+}
+
+.wrap{ 
+  flex-direction: column;
+}
+
+form, .wrap, .list, .title{ 
+  display: flex;
+}
+button {
+  background-color: transparent;
+  border-radius: 2px;
+  cursor: pointer;
+}
+form{
+  width: 420px;
+  justify-content: space-between;
+  margin: 30px 0;
+}
+
+form input {
+  width: 250px;
+  height: 35px;
+  line-height: 35px;
+  border-radius: 2px;
+  text-indent: 10px;
+  border: 1px solid #555;
+}
+form button{
+  border: none;
+  background: #555;
+  color: #fff;
+  width: 70px;
+}
+.add_item{
+  font-size: 18px;
+  line-height: 35px;
+}
+.list_container { 
+  box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 20px;
+  margin: 0 20px;
+  margin: 20px;
+  min-width: 500px;
+}
+.list_container h2{
+  font-size: 16px;
+  padding: 10px;
+}
+.list { 
+  padding: 5px;
+  flex-direction: column;
+}
+.title input{
+  height: 22px;
+  margin-right: 5px;
+}
+.btn_box button { width: 60px; }
